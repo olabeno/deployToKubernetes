@@ -43,3 +43,9 @@ jobs:
       - name: Verify deployment
         run: |
           kubectl get pods
+          
+      - name: Verify the nodes in the cluster
+        run: |
+          kubectl get nodes -o wide
+        
+          
