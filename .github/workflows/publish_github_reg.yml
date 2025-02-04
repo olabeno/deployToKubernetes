@@ -38,7 +38,7 @@ jobs:
 
       - name: Apply Kubernetes manifest
         run: |
-          kubectl apply -f path/to/your/manifest.yaml
+          kubectl apply -f k8s/manifest.yaml
 
       - name: Verify deployment
         run: |
