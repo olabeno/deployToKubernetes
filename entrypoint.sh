@@ -1,3 +1,3 @@
 #!/bin/bash
 
-echo "Welcome to Git Actions CI CD"
+echo "Welcome to Git Actions CI CD pipeline on dev1_branch"
